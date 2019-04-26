@@ -18,7 +18,8 @@
   "homepage": "https://github.com/Majidsp/travel-agency#readme",
   "dependencies": {
     "jquery": "^3.4.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "waypoints": "^4.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
