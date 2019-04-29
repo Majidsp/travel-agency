@@ -727,7 +727,7 @@ a {
         .row__large-4 {
             float: left;
             width: 33.33%;
-            background-color: purple;
+            /* background-color: purple; */
         }
 
         .row__large-4--larger {
@@ -901,7 +901,7 @@ a {
     }
 
 .testimonial--last {
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
     }
 
 .testimonial__photo {
@@ -961,8 +961,8 @@ a {
     position: absolute;
     width: 100%;
     z-index: 2;
-    -webkit-transition: background-color .3s ease-in-out;
-    transition: background-color .3s ease-in-out;
+    -webkit-transition: background-color .4s ease-in-out;
+    transition: background-color .4s ease-in-out;
 }
 
 .site-header--is-expanded {
@@ -972,9 +972,14 @@ a {
 @media (min-width: 800px) {
 
 .site-header {
-    background-color: rgba(47,85,114, .3);
-    padding: 10px 0
+        position: fixed;
+        background-color: rgba(47,85,114, .3);
+        padding: 10px 0
 }
+
+        .site-header--dark {
+            background-color: rgba(23, 51, 72, .85);
+        }
     }
 
 @media (min-width: 800px) {
@@ -990,6 +995,10 @@ a {
         padding: 15px 25px;
         top: 0;
         left: 50%;
+        -webkit-transition: -webkit-transform .4s ease-out;
+        transition: -webkit-transform .4s ease-out;
+        transition: transform .4s ease-out;
+        transition: transform .4s ease-out, -webkit-transform .4s ease-out;
         -webkit-transform: translateX(-50%);
                 transform: translateX(-50%);
     }
@@ -1001,12 +1010,17 @@ a {
             -webkit-transform: translateX(0);
                     transform: translateX(0)
     }
+
+            .site-header--dark .site-header__logo {      /*selectiong logo only when --dark in site-header is being used */
+                -webkit-transform: scale(.6) translateY(-33%);
+                        transform: scale(.6) translateY(-33%);
+            }
     }
 
 @media (min-width: 800px) {
 
 .site-header__logo {
-            padding: 25px 36px
+            padding: 20px 36px
     }
     }
 
@@ -1172,15 +1186,20 @@ a {
         display: block;
         padding: 5px 8px;
         font-size: .8rem;
+        background-color: rgba(47,85,114, .5);
     }
 
 @media (min-width: 800px) {
 
 .primary-nav a {
-            /* background-color: green; */
             font-size: 1rem;
-            padding: 12px 0
+            padding: 12px 0;
+            background-color: transparent
     }
+
+            .primary-nav a.is-current-link {
+                color: #fabb69;
+            }
     }
 
 .reveal-item {

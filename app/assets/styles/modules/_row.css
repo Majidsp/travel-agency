@@ -80,7 +80,7 @@
         &__large-4 {
             float: left;
             width: 33.33%;
-            background-color: purple;
+            /* background-color: purple; */
         }
 
         &__large-4--larger {
