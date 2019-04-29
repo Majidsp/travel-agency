@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/Majidsp/travel-agency#readme",
   "dependencies": {
+    "picturefill": "3.0.2",
     "jquery": "^3.4.0",
     "jquery-smooth-scroll": "^2.2.0",
+    "lazysizes": "^4.0.1",
     "normalize.css": "^8.0.1",
     "waypoints": "^4.0.1"
   },
