@@ -2,15 +2,20 @@
     position: absolute;
     width: 100%;
     z-index: 2;
-    transition: background-color .3s ease-in-out;
+    transition: background-color .4s ease-in-out;
 
     &--is-expanded {
         background-color: rgba($mainBlue, .55);
     }
 
     @mixin atMedium {
-    background-color: rgba($mainBlue, .3);
-    padding: 10px 0;
+        position: fixed;
+        background-color: rgba($mainBlue, .3);
+        padding: 10px 0;
+
+        &--dark {
+            background-color: rgba(23, 51, 72, .85);
+        }
     }
 
     &__btn-container {
@@ -26,15 +31,20 @@
         padding: 15px 25px;
         top: 0;
         left: 50%;
+        transition: transform .4s ease-out;
         transform: translateX(-50%);
 
         @mixin atMedium {
             left: auto;
             transform: translateX(0);
+
+            .site-header--dark & {      /*selectiong logo only when --dark in site-header is being used */
+                transform: scale(.6) translateY(-33%);
+            }
         }
 
         @mixin atMedium {
-            padding: 25px 36px;
+            padding: 20px 36px;
         }
     }
 
