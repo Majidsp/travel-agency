@@ -17,11 +17,11 @@
   },
   "homepage": "https://github.com/Majidsp/travel-agency#readme",
   "dependencies": {
-    "picturefill": "3.0.2",
     "jquery": "^3.4.0",
     "jquery-smooth-scroll": "^2.2.0",
     "lazysizes": "^4.0.1",
     "normalize.css": "^8.0.1",
+    "picturefill": "^3.0.2",
     "waypoints": "^4.0.1"
   },
   "devDependencies": {
@@ -31,6 +31,7 @@
     "babel-preset-env": "^1.7.0",
     "browser-sync": "^2.18.13",
     "gulp": "3.9.1",
+    "gulp-modernizr": "^1.0.0-alpha",
     "gulp-postcss": "^7.0.0",
     "gulp-watch": "4.3.11",
     "postcss-hexrgba": "^1.0.0",
