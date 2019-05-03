@@ -1,6 +1,5 @@
 .page-section {
     padding: 1.2rem 0;
-    /* background-color: aquamarine; */
 
     @mixin atMedium{
     padding: 4.5rem 0;
@@ -16,6 +15,7 @@
 
     &--testimonial {
         background-color: #e0e6ef;
+
         @mixin atLarge {
             &.lazyloaded {
                 background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
@@ -24,19 +24,11 @@
         }
     }
 
-    &--no-b-padding-until-medium {
-        padding-bottom: 0;
-
-        @mixin atMedium {
-            padding-bottom: 4.5 rem;
-        }
-    }
-
     &--no-b-padding-until-large {
         padding-bottom: 0;
 
         @mixin atLarge {
-            padding-bottom: 4.5 rem;
+            padding-bottom: 4.5rem;
         }
     }
 }
