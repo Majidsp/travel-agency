@@ -11011,27 +11011,7 @@ var _Modal2 = _interopRequireDefault(_Modal);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var mobileMenu = new _MobileMenu2.default(); //var $ = require('jquery');
-//var Person = require('./modules/Person');
-//import Person from './modules/Person';
-
-//alert("sfsdfdsfsdf 222222222222233333333333333");
-
-//class Adult extends Person {
-//    payTaxes() {
-//        console.log("Tax tax tax");
-//    }
-//}
-//
-//var john = new Person("John Doe" , "Blue");
-//john.greet();
-//
-//var jane = new Adult("Jane Smith", "Red");
-//jane.greet();
-//jane.payTaxes();
-//
-//$("h1").remove();
-
+var mobileMenu = new _MobileMenu2.default();
 new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "85%");
 var stickyHeader = new _StickyHeader2.default();

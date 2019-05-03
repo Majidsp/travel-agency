@@ -1,10 +1,9 @@
 .primary-nav {
 
-
     &--push-right {
 
         @mixin atMedium {
-        float: right;
+            float: right;
         }
     }
 

@@ -67,7 +67,6 @@
         }
     }
 
-
     @mixin atLarge {
 
         &__b-margin-until-large {
@@ -123,5 +122,4 @@
             display: flex;
         }
     }
-
 }
