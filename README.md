@@ -1,6 +1,6 @@
 # Travel agency website
 
-Creating a good looking website for a fictional travel agency with the latest frontend development technologies.
+A fully responsive website for a fictional travel agency with the latest frontend development technologies.
 
 # Stack:
 HTML, CSS, jQuery, PostCSS, Gulp, Webpack
