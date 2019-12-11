@@ -1,6 +1,6 @@
 # Travel agency website
 
-A fully responsive website for a fictional travel agency with the latest frontend development technologies.
+A fully responsive website for a fictional travel agency with the latest frontend development technologies.<br/>
 http://travel-agency.majidsp.me
 
 # Stack:
